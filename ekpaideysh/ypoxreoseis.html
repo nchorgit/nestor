@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Υποχρεώσεις | ΣΚΛΑΒΕΝΙΤΗΣ Νέστωρ</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/skl-framework.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link href="https://sites.google.com/site/sklplfiles/files/sklico.png" rel="shortcut icon">
+</head>
+<style>
+    .hmenu a:nth-child(3) {
+        background: rgb(149 141 123 / 60%);
+        border-radius: 4px;
+        font-weight: 500;
+        padding: 4.5px 10px;
+    }
+    .smenu a:nth-child(2) {
+        font-weight: 500;
+        color: #333;
+        pointer-events: none;
+    }
+</style>
+<body>
+    <div class="hload"></div>
+    <div class="sload">
+    </div>
+    <div class="wrapper">
+        <div class="header-img">
+            <div class="header-title">Εκπαίδευση</div>
+            <img src="/media/images/education.png" alt="">
+        </div>
+        <div class="main" style="top: 0;">
+            <label for="" nselect">Οργανικό Σύνολο:</label>
+            <select id="nselect">
+                <option value="Όλα">Όλα</option>
+                <option>Δνση Πληροφορικής</option>
+                <option>Αποθήκη</option>
+                <option>Μανάβικο</option>
+                <option>Ταμεία</option>
+            </select>
+            <label style="margin-left: 15px;" for="" nselect">Κατηγορία:</label>
+            <select id="nselect">
+                <option value="Όλα">Βίντεο</option>
+                <option>Σεμινάρια</option>
+            </select>
+            <div class="marticles" style="margin-top: 30px;">
+                <div class="post">
+                    <div class="course-video" style="
+    border-radius: 8px;
+">
+                        <video class="video-js" controls="" preload="metadata" width="250" height="auto" data-setup="{}"
+                            style="
+    border-radius: 8px;
+">
+                            <source
+                                src="https://41eb738405a809e21b98-6e64e6a8aeefce60ada670aa054cbb0f.ssl.cf1.rackcdn.com/tam.mp4"
+                                type="video/mp4">
+                            <p class="vjs-no-js">
+                                To view this video please enable JavaScript, and consider upgrading to a web browser
+                                that
+                                <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5
+                                    video</a>
+                            </p>
+                        </video>
+                    </div>
+                    <div class="post-in">
+                        <p class="postt">Υπεύθυνος Ταμείων</p>
+                        <p class="postp">Να γνωρίσουμε πώς πρέπει να εξυπηρετούμε τους Πελάτες μας, ώστε να
+                            παραμένουμε στην πρώτη θέση της προτίμησής τους</p>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="course-video" style="
+                    border-radius: 8px;
+                ">
+                        <video class="video-js" controls="" preload="metadata" width="250" height="auto" data-setup="{}"
+                            style="
+                    border-radius: 8px;
+                ">
+                            <source
+                                src="https://41eb738405a809e21b98-6e64e6a8aeefce60ada670aa054cbb0f.ssl.cf1.rackcdn.com/apothiki9620.mp4"
+                                type="video/mp4">
+                            <p class="vjs-no-js">
+                                To view this video please enable JavaScript, and consider upgrading to a web browser
+                                that
+                                <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5
+                                    video</a>
+                            </p>
+                        </video>
+                    </div>
+                    <div class="post-in">
+                        <p class="postt">Αποθήκη</p>
+                        <p class="postp">Να γνωρίσουμε πώς πρέπει να εξυπηρετούμε τους Πελάτες μας, ώστε να
+                            παραμένουμε στην πρώτη θέση της προτίμησής τους</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fload"></div>
+    <script>
+        $(".hload").load("/includes/header.html")
+        $(".fload").load("/includes/footer.html")
+        $(".sload").load("/ekpaideysh/smenu.html")
+    </script>
+</body>
+</html>

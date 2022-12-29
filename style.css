@@ -147,8 +147,8 @@ padding: 0 15px;
     max-width: 1450px;
     padding: 30px;
     margin: 0 auto;
-    position: relative;
-    top: 92px;
+    /*position: relative;
+    top: 92px;*/
 }
 .wrapper {
     position: relative;
@@ -201,6 +201,9 @@ background: none;
     
 }
 .post-img img {
+    width: 220px;
+    height: 140px;
+    object-fit: cover;
     border-radius: 8px;
 }
 .smb25 {
@@ -211,7 +214,7 @@ background: none;
     background: #fff;
     padding: 30px 30px 5px;
     border-radius: 8px;
-    margin-top: -50px;
+    
 }
 .fload {
     margin-top: 250px;
@@ -234,3 +237,80 @@ select#nselect {
 .filout {
     display: flex;
 }
+.header-img img {
+    width: 100%;
+    position: relative;
+    top: 0px;
+}
+.header-img {
+    position: relative;
+}
+.header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 50;
+    font-size: 45px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0px 4px 16px rgba(0, 0, 0, 0.7);
+}
+.tags {
+    background: #F2EFE8;
+    height: 42px;
+    border-radius: 8px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 14px;
+    padding: 0 15px;
+    margin-bottom: 35px
+}
+.tag a {
+    background: #fff;
+    color: #333;
+    border-radius: 50px;
+    padding: 3px 10px;
+    text-decoration: none;
+}
+.tagname {
+    font-weight: 500;
+    
+}
+.post {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+.postt {
+    color: #666;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+}
+.postp {
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+.more a {
+    text-decoration: none;
+    color: #F47920;
+    font-weight: 500;
+}
+.more a:hover {
+    text-decoration: none;
+    color: #226CE8;
+    font-weight: 500;
+}
+.postt a {
+    text-decoration: none;
+    color: #666;
+}
+
+.postt a:hover {
+    text-decoration: none;
+    color: #F47920;
+}
+F47920
