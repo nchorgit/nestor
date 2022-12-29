@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'cfsans';
+    src: url(/fonts/cfastystd-book-webfont.woff2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cfsans';
+    src: url(/fonts/cfastystd-medium-webfont.woff2);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'cfsans';
+    src: url(/fonts/cfastystd-bold-webfont.woff2);
+    font-weight: 600;
+    font-style: normal;
+}
+body {
+    margin: 0 auto;
+    font-family: cfsans;
+}
+a {
+    transition: all .3s;
+}
+.hload {
+    position: fixed;
+    width: 100%;
+    z-index: 1100;
+    background: #fff;
+}
+.htop {
+    position: relative;
+    padding: 20px 30px;
+}
+.hright {
+    position: absolute;
+    margin: auto;
+    left: auto;
+    top: 0;
+    bottom: 0;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.search input[type="text"] {
+    font-family: 'cfsans';
+    color: #A6A6A6;
+    font-size: 15px;
+    border: 0;
+    -webkit-highlight: none;
+    outline: none;
+}
+.search {
+    display: flex;
+    border: 1px solid #A6A6A6;
+    padding: 5px 10px; 
+    border-radius: 8px;
+    width: 350px;
+    align-items: center;
+    justify-content: space-between;
+}
+.ricons {
+    position: relative;
+    top: 4px;
+}
+.hmenu {
+gap: 5px;
+background: url(/media/images/wood.png);
+box-shadow: 0px 4px 4px rgb(0 0 0 / 38%);
+background-position: center;
+background-size: cover;
+height: 40px;
+padding: 0 15px;
+}
+.hmenu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+
+}
+.hmenu a:hover {
+    background: rgb(149 141 123 / 60%);
+    border-radius: 4px;
+    
+}
+
+.htitle {
+    font-size: 45px;
+    font-weight: 600;
+    background-color: #FAF9F7;
+    position: relative;
+    display: flex;
+}
+.mask1 {
+   -webkit-mask-image: url(/media/icons/union.svg);
+   mask-image: url(/media/icons/union.svg);
+   -webkit-mask-size:100%;
+   mask-size: 100%;
+   -webkit-mask-repeat: no-repeat; 
+   mask-repeat: no-repeat; 
+   display: flex;
+   margin: 0 auto;
+    
+  }
+  .mask1 img {
+    width: 100%;
+  }
+  .htitle p {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-shadow: 0px 4px 16px rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+.box {
+    background: #FAF9F7;
+    border: 1px solid #E4E7E9;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 30px 50px 30px 20px;
+    gap: 30px;
+    color: #666666; 
+    transition: all .3s;
+}
+.boxes {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.btitle {
+    font-weight: 500;
+    font-size: 30px;
+   
+}
+.btext {
+    font-size: 18px;
+    line-height: 25px;
+   
+}
+.main {
+    max-width: 1450px;
+    padding: 30px;
+    margin: 0 auto;
+    position: relative;
+    top: 92px;
+}
+.wrapper {
+    position: relative;
+    top: 112px;
+    min-height: 950px;
+}
+.bimg img {
+    width: auto;
+    height: 160px;
+}
+.visit {
+    background: rgb(149 141 123 / 60%);
+    border-radius: 4px;
+}
+.box:hover {
+    cursor: pointer;
+    background: rgb(149 141 123);
+    color: #fff;
+    transition: all .3s;
+    border-color:rgb(149 141 123);
+}
+.boxes a {
+    text-decoration: none;
+}
+.hmenu a:hover:first-child {
+background: none;
+}
+.fload {
+    background: #404040;
+}
+.smenu {
+    background: #F2EFE8;
+    font-size: 16px;
+    position: relative;
+    top:112px;
+    padding: 10px 10px 10px 61px;
+   
+}
+.smenu a {
+    text-decoration: none;
+    color: #666666;
+    padding: 3px 10px;
+    z-index: 99;
+}
+.smenu a:hover {
+    background: rgb(149 141 123 / 60%);
+    border-radius: 4px;
+    color: #fff;
+    padding: 3px 10px;
+    
+}
+.post-img img {
+    border-radius: 8px;
+}
+.smb25 {
+    margin-bottom: 25px;
+}
+.marticles {
+    filter: drop-shadow(0px 0px 4px #ddd);
+    background: #fff;
+    padding: 30px 30px 5px;
+    border-radius: 8px;
+    margin-top: -50px;
+}
+.fload {
+    margin-top: 250px;
+}
+.filmenu {
+    padding: 10px;
+    border: 1px solid #C1C5DA;
+    border-radius: 8px;
+    display: flex;
+}
+
+select#nselect {
+    border-radius: 8px;
+    padding: 5px;
+    border-color: #C1C5DA;
+    font-family: 'cfsans';
+    font-size: inherit;
+    outline: none;
+}
+.filout {
+    display: flex;
+}
